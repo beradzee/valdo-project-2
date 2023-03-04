@@ -1,0 +1,195 @@
+body {
+    height: 1000px;
+    position: relative;
+}
+/* rightm */
+.right-section {
+    position: absolute;
+    width: 768px;
+    height: 896px;
+    right: 32px;
+    top: 32px;
+    background: #CBCCE8;
+    border-radius: 40px;
+}
+.img-container {
+    position: absolute;
+}
+/* logo container */
+.logo-container {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    display: flex;
+    width: 146px;
+    height: 32px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: #344054;
+}
+/* main container */
+.main-container {
+    position: absolute;
+    top: 221px;
+    left: 140px;
+    max-width: 360px;
+}
+.title-container {
+    max-width: 341px;
+    margin-bottom: 56px;
+}
+.title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #344054;
+    margin-bottom: 8px;
+}
+.mini-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+}
+.email-container {
+    width: 360px;
+    margin-bottom: 20px;
+}
+.email {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #344054;
+}
+.input {
+    width: 360px;
+    height: 44px;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    padding: 0 15px 0 15px;
+}
+.password-container {
+    width: 360px;
+    margin-bottom: 20px;
+}
+.password {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #344054;
+}
+.remember-me-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.remember-me {
+    display: flex;
+}
+.remember-me-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #344054;
+}
+.forgot-me {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #5429FF;
+}
+.button1 {
+    width: 360px;
+    height: 44px;
+    background: #5429FF;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.a-sing-in {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.button2 {
+    width: 360px;
+    height: 44px;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.sing-in-w-google-img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+.sing-in-w-google {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #344054;
+}
+.sing-up-container {
+    width: 360px;
+    height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.create-account {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #344054;
+}
+.sing-up {
+    color: #5429FF;
+}
+.about-us-div {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+}
+.about-us {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #667085;
+}
